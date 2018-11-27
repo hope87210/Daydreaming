@@ -22,12 +22,28 @@
     vertical-align: top;
     padding: 5px;
 }
+.pic1_b{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: -255px;
+    opacity: 0;
+}
 .pic2{
     display: inline-block;
     width: 200px;
     height: 260px;
     vertical-align: top;
     padding: 5px;
+}
+.pic2_b{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: -255px;
+    opacity: 0;
 }
 .pic3{
     display: inline-block;
@@ -36,12 +52,28 @@
     vertical-align: top;
     padding: 5px;
 }
+.pic3_b{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: -255px;
+    opacity: 0;
+}
 .pic4{
     display: inline-block;
     width: 200px;
     height: 260px;
     vertical-align: top;
     padding: 5px;
+}
+.pic4_b{
+    position: absolute;
+    width: 200px;
+    height: 245px;
+    background-color: #fff;
+    margin-top: -247px;
+    opacity: 0;
 }
 .game_area{
     width: 78%;
