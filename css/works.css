@@ -1,0 +1,153 @@
+.works_content{
+    position: absolute;
+    width: 88%;
+    margin-left: 12%;
+    margin-top: 100px;
+    animation: fadeUpIn 1s;
+    -webkit-animation: fadeUpIn 1s;
+ }
+ @-webkit-keyframes fadeUpIn /* Safari and Chrome */
+ {
+   from { opacity:0; margin-top: 150px; }
+   to { opacity:1; margin-top: 100px; }
+ }
+.painting_area{
+    width: 97%;
+    height: auto;
+}
+.pic1{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    vertical-align: top;
+    padding: 5px;
+}
+.pic2{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    vertical-align: top;
+    padding: 5px;
+}
+.pic3{
+    display: inline-block;
+    width: 200px;
+    height: 260x;
+    vertical-align: top;
+    padding: 5px;
+}
+.pic4{
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    vertical-align: top;
+    padding: 5px;
+}
+.game_area{
+    width: 78%;
+    height: auto;
+}
+.unfinished{
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+    height: 386px;
+    background-color: #848484;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 386px;
+    margin-left: -200px;
+    opacity: 0;
+}
+.unfinished:hover{
+    opacity: 0.8;
+}
+.web_area{
+    width: 78%;
+    height: 150px;
+}
+.web_area ul li{
+    color: #fff;
+    padding: 8px;
+    margin-left: 33px;
+}
+
+
+@media screen and (max-width:768px){
+    .works_content{
+        position: absolute;
+        width: 96%;
+        height: auto;
+        margin-top: 100px;
+        margin-left: 2%;
+    }
+    .painting_area{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:480px){
+    .works_content{
+        position: absolute;
+        width: 96%;
+        height: auto;
+        margin-top: 100px;
+        margin-left: 2%;
+    }
+    .painting_area{
+        width: 200px;
+        height: auto;
+        margin-left: 20%;
+    }
+    .pic1{
+        display: block;
+        width: 200px;
+        height: 260px;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .pic2{
+        display: block;
+        width: 200px;
+        height: 260px;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .pic3{
+        display: block;
+        width: 200px;
+        height: 260x;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .pic4{
+        display: block;
+        width: 200px;
+        height: 260px;
+        vertical-align: top;
+        padding: 5px;
+    }
+    .game_area{
+        width: 200px;
+        height: auto;
+        margin-left: 20%;
+    }
+    .unfinished{
+        position: absolute;
+        display: inline-block;
+        width: 200px;
+        height: 386px;
+        background-color: #848484;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+        line-height: 386px;
+        opacity: 0;
+        margin-left: 0;
+        margin-top: -391px;
+    }
+    .unfinished:hover{
+        opacity: 0.8;
+    }
+}

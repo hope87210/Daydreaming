@@ -1,0 +1,65 @@
+.skill_content{
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 100px;
+    animation: fadeUpIn 1s;
+    -webkit-animation: fadeUpIn 1s;
+ }
+ @-webkit-keyframes fadeUpIn /* Safari and Chrome */
+ {
+   from { opacity:0; margin-top: 150px; }
+   to { opacity:1; margin-top: 100px; }
+ }
+.skill1{
+    display: inline-block;
+    vertical-align: top;
+    width: 275px;
+    height: 500px;
+    margin-left: 3%;
+}
+.com_text{
+    color: #fff;
+    padding: 8px;
+    margin-left: 10%;
+}
+.skill2{
+    display: inline-block;
+    vertical-align: top;
+    width: 275px;
+    height: 405px;
+    margin-left: 3%;
+    margin-top: 95px;
+}
+.paint_text{
+    color: #fff;
+    padding: 8px;
+    margin-left: 10%;
+}
+
+
+@media screen and (max-width:768px){
+    .skill_content{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    .skill1{
+        display: block;
+        vertical-align: top;
+        width: 275px;
+        height: auto;
+        margin-left: 3%;
+    }
+    .skill2{
+        display: block;
+        vertical-align: top;
+        width: 275px;
+        height: 240px;
+        margin-left: 3%;
+        margin-top: 0px;
+    }
+}
